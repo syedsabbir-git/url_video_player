@@ -1,0 +1,35 @@
+name: url_video_player
+description: >-
+  A Flutter video player that automatically detects and plays YouTube,
+  Facebook, Instagram, and direct video URLs (mp4/webm) — no configuration
+  needed. Gracefully falls back to an external link for private or
+  login-required content.
+version: 0.1.0
+homepage: https://github.com/syedsabbir-git/url_video_player
+repository: https://github.com/syedsabbir-git/url_video_player
+issue_tracker: https://github.com/syedsabbir-git/url_video_player/issues
+
+topics:
+  - video
+  - player
+  - youtube
+  - facebook
+  - instagram
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^6.1.5
+  video_player: ^2.10.1
+  chewie: ^1.13.0
+  shimmer_animation: ^2.2.2+1
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
